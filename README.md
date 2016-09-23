@@ -5,12 +5,9 @@ This directory contains a translation of the algebraic effects
 library originally written in Idris for Brady's ICFP 2013 paper,
 "Programming and Reasoning with Algebraic Effects and Dependent Types".
 It compiles with a version of GHC 8 that has GHC bug [#12442][] fixed.
-As of this writing, the fix was not yet merged into the HEAD branch;
-it is available on my fork of GHC, on [GitHub][], on the `wip/12442`
-branch.
+This fix is in HEAD, as of this writing.
 
 [#12442]: https://ghc.haskell.org/trac/ghc/ticket/12442
-[GitHub]: https://github.com/goldfirere/ghc
 
 Files beginning with `Sec` in this directory correspond to sections
 in Brady's original paper.
